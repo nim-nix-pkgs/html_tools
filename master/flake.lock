@@ -1,0 +1,134 @@
+{
+  "nodes": {
+    "contra": {
+      "inputs": {
+        "contra-master": "contra-master",
+        "flakeNimbleLib": [
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1647934118,
+        "narHash": "sha256-vk+EDh+4EJ7wFFWpaiCEXjb2TambKJ9i6OtEMp4Syts=",
+        "owner": "nim-nix-pkgs",
+        "repo": "contra",
+        "rev": "21e2461a898d173f7cc35a95b98c1185c31871c4",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "contra",
+        "type": "github"
+      }
+    },
+    "contra-master": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "contra",
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "contra",
+          "nixpkgs"
+        ],
+        "src-contra-master": "src-contra-master"
+      },
+      "locked": {
+        "dir": "master",
+        "lastModified": 1647934118,
+        "narHash": "sha256-vk+EDh+4EJ7wFFWpaiCEXjb2TambKJ9i6OtEMp4Syts=",
+        "owner": "nim-nix-pkgs",
+        "repo": "contra",
+        "rev": "21e2461a898d173f7cc35a95b98c1185c31871c4",
+        "type": "github"
+      },
+      "original": {
+        "dir": "master",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "contra",
+        "type": "github"
+      }
+    },
+    "flakeNimbleLib": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1647920574,
+        "narHash": "sha256-D3ob5QykELhyNcTnISOkjEzLlgXltwON8Ucrz5cpiQI=",
+        "owner": "riinr",
+        "repo": "nim-flakes-lib",
+        "rev": "bfb46a1f762002f07f9d81d93dacd544c6890623",
+        "type": "github"
+      },
+      "original": {
+        "owner": "riinr",
+        "ref": "master",
+        "repo": "nim-flakes-lib",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "narHash": "sha256-sK1Ow//80EKE3bAF5d+2gB8vPXw6m5TBk3wSLHvdVe0=",
+        "path": "/nix/store/0yqgkbpmsk7ck4s34wk505sfdd9vils4-source",
+        "type": "path"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    },
+    "root": {
+      "inputs": {
+        "contra": "contra",
+        "flakeNimbleLib": "flakeNimbleLib",
+        "nixpkgs": "nixpkgs",
+        "src-html_tools-master": "src-html_tools-master"
+      }
+    },
+    "src-contra-master": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1643233667,
+        "narHash": "sha256-kr4/UkrM4QltwtG7mj3VRGF6qa9ZcZ5cd2C5qgOPeKU=",
+        "owner": "juancarlospaco",
+        "repo": "nim-contra",
+        "rev": "21a9794324e82047928282a73bb19683437b72f4",
+        "type": "github"
+      },
+      "original": {
+        "owner": "juancarlospaco",
+        "ref": "refs/heads/master",
+        "repo": "nim-contra",
+        "type": "github"
+      }
+    },
+    "src-html_tools-master": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1563936423,
+        "narHash": "sha256-PaPYQ0J+xVaIlVB41dlxW4BvX6PSLph+eSSQ71WrQlY=",
+        "owner": "juancarlospaco",
+        "repo": "nim-html-tools",
+        "rev": "272acbcec56a381fdcc6299893fd1c05e09ffbc5",
+        "type": "github"
+      },
+      "original": {
+        "owner": "juancarlospaco",
+        "ref": "refs/heads/master",
+        "repo": "nim-html-tools",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
