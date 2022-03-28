@@ -11,7 +11,6 @@
   inputs.src-html_tools-master.ref   = "refs/heads/master";
   inputs.src-html_tools-master.owner = "juancarlospaco";
   inputs.src-html_tools-master.repo  = "nim-html-tools";
-  inputs.src-html_tools-master.dir   = "";
   inputs.src-html_tools-master.type  = "github";
   
   inputs."contra".owner = "nim-nix-pkgs";
